@@ -1,0 +1,26 @@
+/*#parking-for-night {*/
+    /*!*width: 100%;*!*/
+    /*height: 40em;*/
+    /*padding-top: 2em;*/
+    /*background-color: white;*/
+/*}*/
+
+.parking {
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.parking iframe{
+    pointer-events: none;
+}
+
+/*#parking-for-night h2 {*/
+    /*margin-top: 0.2em;*/
+    /*margin-bottom: 0.2em;*/
+    /*text-align: center;*/
+/*}*/

@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body class="is-preload">
 
@@ -23,7 +24,7 @@
 							<h1>Surfing on Land</h1>
 							<p class="major">Stories coming soon from the field of archaeology, technology and travelling.</p>
 							<ul class="actions stacked">
-								<li><a href="#insta" class="button big wide smooth-scroll-middle">Take me to the stories</a></li>
+								<li><a href="#map" class="button big wide smooth-scroll-middle">Take me to the stories</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -31,34 +32,45 @@
 						</div>
 					</section>
 
-				<!--&lt;!&ndash; Two &ndash;&gt;-->
-					<!--<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">-->
-						<!--<div class="content">-->
-							<!--<h2>Magna etiam feugiat</h2>-->
-							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>-->
-							<!--<ul class="actions stacked">-->
-								<!--<li><a href="#" class="button">Learn More</a></li>-->
-							<!--</ul>-->
-						<!--</div>-->
-						<!--<div class="image">-->
-							<!--<img src="images/spotlight01.jpg" alt="" />-->
-						<!--</div>-->
-					<!--</section>-->
+
+				<!-- Two -->
+				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+					<div class="content">
+						<h2>Where We've Been</h2>
+						<p>Or should I say where we've been parking? <br />
+							We do most of our travelling in camper vans so finding a good parking spot for the night is essential.<br/>
+							The map on the left shows all the spots where we parked for at least one night during our travels.<br />
+							Detailed description of each of them is coming soon...</p>
+						<ul class="actions stacked">
+							<li><a href="https://www.google.com/maps/d/viewer?mid=1WuL6uMhrrNZ47sOLh0TMC4c5Ly7WaZFd&usp=sharing" class="button" target="_blank">Learn More</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<div class="parking">
+							<iframe id="map" src="https://www.google.com/maps/d/u/0/embed?mid=1WuL6uMhrrNZ47sOLh0TMC4c5Ly7WaZFd"></iframe>
+						</div>
+					</div>
+				</section>
+
 
 				<!--&lt;!&ndash; Three &ndash;&gt;-->
 					<!--<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">-->
 						<!--<div class="content">-->
-							<!--<h2>Tempus adipiscing</h2>-->
-							<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>-->
+							<!--<h2>Where We've Been</h2>-->
+							<!--<p>The map on the left shows all the parking spots where we parked for at least one night during our travels.<br />-->
+								<!--They proved to be safe and sufficient and in our case.<br />-->
+								<!--Description of each of them comes soon...</p>-->
 							<!--<ul class="actions stacked">-->
-								<!--<li><a href="#" class="button">Learn More</a></li>-->
+								<!--<li><a href="https://www.google.com/maps/d/viewer?mid=1WuL6uMhrrNZ47sOLh0TMC4c5Ly7WaZFd&usp=sharing" class="button" target="_blank">Learn More</a></li>-->
 							<!--</ul>-->
 						<!--</div>-->
 						<!--<div class="image">-->
-							<!--<img src="images/spotlight02.jpg" alt="" />-->
+							<!--<iframe id="map2" src="https://www.google.com/maps/d/u/0/embed?mid=1WuL6uMhrrNZ47sOLh0TMC4c5Ly7WaZFd"></iframe>-->
+							<!--&lt;!&ndash;<div id="map"></div>&ndash;&gt;-->
 						<!--</div>-->
 					<!--</section>-->
 
+				<!--<img src="images/spotlight02.jpg" alt="" />-->
 				<!--&lt;!&ndash; Four &ndash;&gt;-->
 					<!--<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">-->
 						<!--<div class="content">-->
@@ -327,6 +339,11 @@
 						<!--</div>-->
 					<!--</section>-->
 
+				<!--<section id="parking-for-night">-->
+					<!--<h2 class="map-title">Where We've Been</h2>-->
+					<!--<div id="map"></div>-->
+				<!--</section>-->
+
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
@@ -351,6 +368,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwopyaYnPbLfOHgAPdAP1aEkpaf-opSZA&callback=initMap" async defer></script>
+		    <script src="assets/js/custom.js"></script>
 	</body>
 </html>
